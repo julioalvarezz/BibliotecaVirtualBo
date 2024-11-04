@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BibliotecaVirtualBo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <div class="banner">
+      <h1>BibliotecaVirtualBo</h1>
+      <p>Explora un mundo de conocimiento a tu alcance</p>
+    </div>
+  </header>
+
+  <!-- Barra de búsqueda -->
+  <section class="search-section">
+    <input type="text" id="searchInput" placeholder="Buscar libros, autores o temas..." />
+    <button onclick="searchBooks()">Buscar</button>
+  </section>
+
+  <!-- Categorías -->
+  <section class="categories">
+    <h2>Categorías Destacadas</h2>
+    <div class="category-list">
+      <div class="category">Literatura</div>
+      <div class="category">Historia</div>
+      <div class="category">Ciencia</div>
+      <div class="category">Filosofía</div>
+      <div class="category">Arte</div>
+    </div>
+  </section>
+
+  <!-- Resultados de búsqueda -->
+  <section id="results" class="results-section">
+    <!-- Resultados de búsqueda generados dinámicamente -->
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2024 BibliotecaVirtualBo | Un proyecto para el acceso al conocimiento</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
